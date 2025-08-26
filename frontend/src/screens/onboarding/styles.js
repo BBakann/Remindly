@@ -9,40 +9,45 @@ const styles = StyleSheet.create({
     },
     slide: {
         width,
-        height,
+        height: height - 150,
         alignItems: 'center',
-        justifyContent: 'center',
         padding: 20,
-    },
-    image: {
-        width: width * 0.7,
-        height: width * 0.7,
-        resizeMode: 'contain',
-        marginBottom: 30,
+        paddingTop: height * 0.1, 
     },
     title: {
         fontSize: 28,
         fontWeight: 'bold',
         color: '#333',
         textAlign: 'center',
-        marginBottom: 10,
+        marginTop: 18,
+        marginBottom: 10
     },
     description: {
         fontSize: 16,
         color: '#666',
         textAlign: 'center',
         paddingHorizontal: 30,
+        marginBottom: 40, 
+    },
+    image: {
+        width: width * 1, 
+        height: width * 1,
+        resizeMode: 'contain',
     },
     footer: {
         position: 'absolute',
-        bottom: 50,
-        width: '100%',
-        paddingHorizontal: 20,
+        bottom: 0,
+        left: 0,
+        right: 0,
+        backgroundColor: '#fff',
+        paddingHorizontal: 24,
+        paddingBottom: 50,
+        paddingTop: 20,
     },
     indicatorContainer: {
         flexDirection: 'row',
         justifyContent: 'center',
-        marginBottom: 20,
+        marginBottom: 30,
     },
     indicator: {
         height: 8,
@@ -54,25 +59,50 @@ const styles = StyleSheet.create({
     activeIndicator: {
         backgroundColor: '#007AFF',
     },
-    buttonContainer: {
+    navigationButtons: {
         flexDirection: 'row',
-        justifyContent: 'space-between',
-        paddingHorizontal: 20,
-    },
-    btn: {
-        flex: 1,
-        height: 50,
-        borderRadius: 25,
-        backgroundColor: '#007AFF',
         justifyContent: 'center',
         alignItems: 'center',
-        marginHorizontal: 5,
+        gap: 12,
     },
-    btnText: {
+    startButton: {
+        backgroundColor: '#007AFF',
+        height: 56,
+        borderRadius: 12,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '100%',
+    },
+    nextButton: {
+        backgroundColor: '#007AFF',
+        height: 56,
+        borderRadius: 12,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '48%',
+    },
+    skipButton: {
+        backgroundColor: 'transparent',
+        height: 56,
+        borderRadius: 12,
+        justifyContent: 'center',
+        alignItems: 'center',
+        width: '48%',
+        borderWidth: 1,
+        borderColor: '#007AFF',
+    },
+    buttonText: {
         color: '#fff',
         fontSize: 16,
-        fontWeight: 'bold',
+        fontWeight: '600',
+        letterSpacing: 0.5,
     },
-})
+    skipButtonText: {
+        color: '#007AFF',
+        fontSize: 16,
+        fontWeight: '600',
+        letterSpacing: 0.5,
+    },
+});
 
 export default styles;
