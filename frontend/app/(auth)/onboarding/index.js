@@ -1,2 +1,5 @@
-import OnboardingScreen from '../../../src/screens/onboarding/OnboardingScreen';
-export default OnboardingScreen;
+import OnboardingScreen from '../../../src/screens/OnboardingScreen/OnboardingScreen';
+
+export default function Page() {
+    return <OnboardingScreen />;
+}
