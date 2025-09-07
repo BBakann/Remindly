@@ -2,34 +2,31 @@ import { StyleSheet } from "react-native";
 
 const styles = StyleSheet.create({
     headerContainer: {
-        padding: 24,
+        padding: 10,
         backgroundColor: '#d01f1f',
-        borderBottomLeftRadius: 30,
-        borderBottomRightRadius: 30,
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         paddingBottom: 30,
         elevation: 5,
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
-        shadowOpacity: 0.25,
-        shadowRadius: 3.84,
     },
     headerTextContainer: {
         flex: 1
     },
     headerText: {
-        fontSize: 32,
+        fontSize: 25,
         fontFamily: 'Inter_700Bold',
         color: 'white',
-        marginBottom: 8
+        marginBottom: 8,
+        marginLeft: 5
     },
     describeText: {
         fontSize: 18,
         fontFamily: 'Inter_400Regular',
         color: '#fff',
-        opacity: 0.9
+        opacity: 0.9,
+        marginLeft: 5
     },
     headerIcon: {
         marginLeft: 20,
