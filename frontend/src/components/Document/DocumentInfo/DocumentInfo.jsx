@@ -1,6 +1,6 @@
 import { Ionicons } from "@expo/vector-icons";
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
-import { infoData } from "../../utils/documentInfoData";
+import { infoData } from "../../../utils/document/documentInfoData";
 import styles from "./styles";
 
 const getWarningColors = (warning) => {

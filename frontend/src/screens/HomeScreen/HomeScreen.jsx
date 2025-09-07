@@ -1,7 +1,7 @@
 import { View } from 'react-native';
-import HomeContent from '../../components/HomeContent/HomeContent';
-import HomeHeader from '../../components/HomeHeader/HomeHeader';
-import HomeQuickAction from '../../components/HomeQuickAction/HomeQuickAction';
+import HomeContent from '../../components/Home/HomeContent/HomeContent';
+import HomeHeader from '../../components/Home/HomeHeader/HomeHeader';
+import HomeQuickAction from '../../components/Home/HomeQuickAction/HomeQuickAction';
 import styles from './styles';
 
 const HomeScreen = () => {

@@ -1,7 +1,7 @@
 import { useRouter } from 'expo-router';
 import { FlatList, Image, Text, TouchableOpacity, View } from 'react-native';
 import { useOnboarding } from '../../hooks/useOnboarding';
-import { onboardingSlides } from '../../utils/onboardingData';
+import { onboardingSlides } from '../../utils/onboarding/onboardingData';
 import styles from './styles';
 
 const OnboardingScreen = () => {

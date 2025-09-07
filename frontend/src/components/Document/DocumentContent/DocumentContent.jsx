@@ -1,6 +1,6 @@
 import { Ionicons } from '@expo/vector-icons';
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
-import { categoryData } from '../../utils/documentCategoryData';
+import { categoryData } from '../../../utils/document/documentCategoryData';
 import styles from "./styles";
 
 const DocumentContent = () => {

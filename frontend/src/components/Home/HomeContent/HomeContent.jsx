@@ -1,5 +1,5 @@
 import { FlatList, Text, View } from "react-native";
-import { expirationData } from '../../utils/homeContentData';
+import { expirationData } from '../../../utils/home/homeContentData';
 import styles from "./styles";
 
 const HomeContent = () => {

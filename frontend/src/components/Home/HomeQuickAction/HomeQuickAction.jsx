@@ -1,5 +1,5 @@
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
-import { quickData } from "../../utils/homeQuickData";
+import { quickData } from "../../../utils/home/homeQuickData";
 import styles from "./styles";
 
 const HomeQuickAction = () => {
